@@ -1,20 +1,16 @@
 {
   "name": "todolist",
-  "version": "1.0.0",
-  "description": "A very simple website using NodeJS, ExpressJS, and AngularJS frameworks to build an interactive task list.",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "npm test"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "ToDoList"
-  },
-  "author": "Eric Emerson",
-  "license": "BSD-2-Clause",
   "dependencies": {
-    "angularjs": "^0.0.1",
-    "expressjs": "^1.0.1",
-    "jasmine": "^5.1.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.19.1",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "morgan": "~1.9.1"
   }
 }
